@@ -3,21 +3,17 @@
 		
 
 		public static void main(String[] args) {
+				
 			
-			int nota1 = 90;
-			int nota2 = 70;
-			int nota3 = 50;
-			int nota4 = 88;
+			int  mediaAluno = 69;
 			
-			char sexoF = 'F';
-			char sexoM = 'M';
-			
-			String exemploTexto = "teste de texto string";
-			
-			int media = (nota1+nota2+nota3+nota4)/4;
-			
-			System.out.println("Media das notas = " + media + " Aluno do sexo: " + sexoF);
-			System.out.println(exemploTexto);
+			if (mediaAluno >= 70) {
+				System.out.println("Aprovado");
+			} else
+			if (mediaAluno < 70) {
+				System.out.println("Reprovado");
+			}
+
 		}
 			
 	}
