@@ -12,9 +12,12 @@
 			char sexoF = 'F';
 			char sexoM = 'M';
 			
+			String exemploTexto = "teste de texto string";
+			
 			int media = (nota1+nota2+nota3+nota4)/4;
 			
 			System.out.println("Media das notas = " + media + " Aluno do sexo: " + sexoF);
+			System.out.println(exemploTexto);
 		}
 			
 	}
