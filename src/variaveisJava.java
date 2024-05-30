@@ -4,10 +4,10 @@ public class variaveisJava {
 
 	public static void main(String[] args) {
 
-		int nota1 = 10;
-		int nota2 = 30;
-		int nota3 = 40;
-		int nota4 = 20;
+		int nota1 = 35;
+		int nota2 = 35;
+		int nota3 = 35;
+		int nota4 = 35;
 
 		int media = (nota1 + nota2 + nota3 + nota4)/4;
 
