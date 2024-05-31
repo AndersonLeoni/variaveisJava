@@ -11,13 +11,15 @@ public class variaveisJava {
 
 		int media = (nota1 + nota2 + nota3 + nota4)/4;
 
-		if (media >= 50) {
+		/*if (media >= 50) {
 			System.out.println("Aprovado");
 		} else if (media >= 30 && media <= 49) {
 			System.out.println("Recuperação");
 		} else {
 			System.out.println("Reprovado");
-		}
-
+		}*/
+		
+		String saidaResultado = media >= 50 ? "Aluno aprovado" : "Reprovado";
+		System.out.println(saidaResultado);
 	}
 }
